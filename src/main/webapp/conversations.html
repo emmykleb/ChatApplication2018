@@ -10,22 +10,24 @@
    
         
         <div class="container">
-            <h1>Conversations</h1>
+            <h1 class="Headline">Conversations</h1>
       
-       
+            <button class="btn" id="backButton" onclick="location.href='index.html';">
+                Back
+            </button>
              <Ul class="conversations" id="messages">
                 
 
                 </Ul>
                
-        </div>
+
         <form id="messageinput" onSubmit="return false;">
   Message:<br>
   <input id="textinput" type="text"><br>
         </form>
         
         <div class="btn" id="sendbtn" onClick=" addAnother()">Send</div>
-         <p id="demo"> </p>
+                </div>
         <script src="chat-js.js"></script>
     </body>
 </html>

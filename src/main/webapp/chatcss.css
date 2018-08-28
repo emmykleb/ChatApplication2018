@@ -1,5 +1,6 @@
 .title{
     font-size:200px;
+    align-self: center;
 }
 
 .container{
@@ -11,14 +12,21 @@
     padding: 50px;
    
     flex-direction: column;
+    align-self: center;
     
 }
 .conversations{
     
-    background-color: beige;
+    
     border-radius: 25px;
     width:600px;
-   
+    align-self: center;
+    
+}
+
+ul{
+    
+    align-self: center;
 }
 
 li{
@@ -29,7 +37,16 @@ li{
    background-color: deepskyblue;
     border-radius: 25px;
     width: 400px;
+    align-self: center;
    
+}
+
+ul:hover li {
+    opacity: .5;
+}
+
+ul li:hover {
+    opacity: 1;
 }
 
 .btn {
@@ -39,11 +56,31 @@ li{
     color: white;
     text-align: center;
     line-height: 25px;
+    align-self: center;
 }
 
 .Headline{
-    color: captiontext;
-    font: fantasy;
-    font-size:40px;
+    color: deepskyblue;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-size:50px;
+  
+    align-self: center;
     
+}
+#username{
+    
+    align-self: center;
+}
+
+#messages{
+    align-self: center;
+}
+#messageinput{
+    
+   align-self: center;
+}
+
+#textinput{
+    
+    align-self: center;
 }
