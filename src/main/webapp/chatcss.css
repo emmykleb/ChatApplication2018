@@ -1,0 +1,49 @@
+.title{
+    font-size:200px;
+}
+
+.container{
+    
+    display:flex;
+    
+    height: 100%;
+    
+    padding: 50px;
+   
+    flex-direction: column;
+    
+}
+.conversations{
+    
+    background-color: beige;
+    border-radius: 25px;
+    width:600px;
+   
+}
+
+li{
+    
+   
+   padding:3px;
+   margin:3px 0;
+   background-color: deepskyblue;
+    border-radius: 25px;
+    width: 400px;
+   
+}
+
+.btn {
+    width: 50px;
+    height: 25px;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+.Headline{
+    color: captiontext;
+    font: fantasy;
+    font-size:40px;
+    
+}

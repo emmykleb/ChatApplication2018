@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="chatcss.css">
+        
+    </head>
+    <body>
+
+        
+        <div class="container">
+             <h1 class="Headline">Chatify</h1>
+         <form id="username" onSubmit="return false;">
+  Username:<br>
+  <input id="usernameInput" type="text"><br>
+        </form>
+            <div class="btn" id="addUser" onClick=" addUser()">Add User</div>
+             <Ul class="users" id="users">
+                 <li onclick="location.href='conversations.html';">
+                     <div >
+                         Michael
+                     </div>
+                 </li>
+                 <li>Paul</li>
+                </Ul>
+               
+        </div>
+     
+        
+     
+        <script src="chat-js.js"></script>
+    </body>
+</html>
