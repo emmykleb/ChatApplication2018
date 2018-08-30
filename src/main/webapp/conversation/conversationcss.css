@@ -1,4 +1,4 @@
-.html{
+.body{
     
     background: linear-gradient(to top right, #808080 -7%, #000000 105%);
 }
@@ -15,6 +15,7 @@
     padding: 50px;
     flex-direction: column;
     align-self: center;
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
     
 }
 .conversations{    
@@ -128,7 +129,7 @@ ul li:hover {
 
 .header{
     
-    background-image: linear-gradient(to top right, #808080 -7%, #000000 105%);
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
     height:100px;
     margin-top:10px;
     

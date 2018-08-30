@@ -7,28 +7,33 @@
         
     </head>
     <body>
-
+  <header>
+            
+             <h1 class="Headline">Chattup</h1>
+             </header>
         
         <div class="container">
-             <h1 class="Headline">Chatify</h1>
+            <div class="conversation-view">
+              
          <form id="username" onSubmit="return false;">
-  Username:<br>
+  Find friend by username:<br>
   <input id="usernameInput" type="text"><br>
         </form>
-            <div class="btn" id="addUser" onClick=" addUser()">Add User</div>
-             <Ul class="users" id="users">
-                 <li onclick="location.href='conversations.html';">
-                     <div >
-                         Michael
-                     </div>
+                <button class="btn" id="addUser" onClick="addUser()">  Add Friend  </button>
+            
+            <Ul class="users" id="users">
+                 <li class="user-li" onclick="goToNewConvPage()">
+                     Chatbot
                  </li>
-                 <li>Paul</li>
-                </Ul>
+              
+             </Ul>
                
         </div>
      
-        
+        </div>
      
-        <script src="chat-js.js"></script>
+        <script src="mainscript.js"></script>
+    
+      
     </body>
 </html>
