@@ -8,16 +8,22 @@
     </head>
     
     <body>
-        <header> <h1 class="Headline">Conversations</h1> </header>
+        <header> <h1 class="Headline">Conversations</h1>
+             
+            
+        </header>
         
             <div class="container">
-           
+               
       
                 <button class="btn" id="backButton" onclick="location.href='../index.html','../ mainscript.js';">
                     Back
                 </button>
-            
+                
+               
             <div class="message-window">
+                
+              
                 <Ul class="conversations" id="messages">
 
                 </Ul>
@@ -33,12 +39,17 @@
                 </div>
                 <div id="postFile">
                     <input type="button" id="get_file" value="Open file">
-                    <input type="file" id="my_file">
+                    <input type="file" id="my_file"
+                           accept="image/png, image/jpeg" />
+                </div>
+                <div id="printFile">
+                    <button class="btn" id="sendtbn" onClick="postPicture()">Post Picture</button>
                 </div>
                
             </div>
         
             <script src="chat-js.js"></script>
+            
            
             
        

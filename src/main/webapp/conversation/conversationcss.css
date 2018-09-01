@@ -19,12 +19,12 @@
     
 }
 .conversations{    
-    border-radius: 25px;
+    border-radius: 10px;
     width:600px;
-     height: 200px;
+    height: 200px;
     overflow: scroll;
-    overflow-x:hidden;    
-    background-color: antiquewhite;
+    overflow-x:hidden;  
+    background-color: dimgray;
 }
 
 ul{
@@ -52,6 +52,15 @@ ul li:hover {
     opacity: 1;
 }
 
+
+.img{
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+
 .btn {
     background: #f9f9f9;
     border: 5px solid deepskyblue;
@@ -66,7 +75,7 @@ ul li:hover {
 }
 
 .Headline{
-    background-color: deepskyblue;
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
     color: white;
     font-family: Arial, Helvetica, sans-serif, cursive;
     font-size:50px;  

@@ -11,6 +11,10 @@ function addUser(){
         text += x.elements[i].value + "<br>";
     }
     */
+   var idImg = new Image();
+    idImg.src = "idavatar.png";
+    idImg.width = 20;
+   
         
     usernameinput = document.getElementById('usernameInput').value;
     if(usernameinput ===""){
@@ -19,7 +23,8 @@ function addUser(){
     }else if(usernameinput !== ""){
     var ul = document.getElementById("users");
     var li = document.createElement("li");
-   
+    
+    li.appendChild(idImg);
     li.appendChild(document.createTextNode(usernameinput));
     ul.appendChild(li);
     document.getElementById("usernameInput").value = "";
