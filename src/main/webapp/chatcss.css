@@ -1,4 +1,4 @@
-.html{
+.body{
     
     background: linear-gradient(to top right, #808080 -7%, #000000 105%);
 }
@@ -10,21 +10,13 @@
 
 .container{
     
-    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
-    display:flex;
+   display:flex;
     height: 100%;
     padding: 50px;
     flex-direction: column;
     align-self: center;
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
     
-}
-.conversations{    
-    border-radius: 25px;
-    width:600px;
-     height: 200px;
-    overflow: scroll;
-    overflow-x:hidden;    
-    background-color: dimgray;
 }
 
 ul{
@@ -79,7 +71,7 @@ ul li:hover {
      height: 200px;
     overflow: scroll;
     overflow-x:hidden;
-    background-color: dimgray;
+    background-color: #D3D3D3;
     border-radius:25px;
     
 }

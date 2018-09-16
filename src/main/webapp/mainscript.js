@@ -1,5 +1,24 @@
+class User {
+    
+    constructor(uid,name) {
+        this.uid = uid;
+        this.name = name;
+    }
 
-var usernameinput;
+   
+}
+
+window.onload = setUser;
+
+function setUser(){
+   
+    usernameinput = document.getElementById('usernameInput').value;
+    document.getElementById("Headline").innerHtml = usernameinput;
+    
+    
+}
+
+
 
 function addUser(){
    
@@ -11,6 +30,8 @@ function addUser(){
         text += x.elements[i].value + "<br>";
     }
     */
+  
+   
    var idImg = new Image();
     idImg.src = "idavatar.png";
     idImg.width = 20;

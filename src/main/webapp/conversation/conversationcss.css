@@ -20,11 +20,11 @@
 }
 .conversations{    
     border-radius: 10px;
-    width:600px;
-    height: 200px;
+    width:800px;
+    height: 500px;
     overflow: scroll;
     overflow-x:hidden;  
-    background-color: dimgray;
+    background-color: #D3D3D3;
 }
 
 ul{
@@ -46,6 +46,7 @@ li{
 
 ul:hover li {
     opacity: .5;
+   
 }
 
 ul li:hover {
