@@ -1,0 +1,9 @@
+com\mycompany\chatapplication\chat\domain\User.class
+com\mycompany\chatapplication\chat\ChatService.class
+com\mycompany\chatapplication\chat\domain\Chat_.class
+service\AbstractFacade.class
+com\mycompany\chatapplication\chat\MessageService.class
+com\mycompany\chatapplication\chat\AppConfig.class
+com\mycompany\chatapplication\chat\domain\Message.class
+com\mycompany\chatapplication\chat\domain\Chat.class
+com\mycompany\chatapplication\chat\domain\Message_.class
